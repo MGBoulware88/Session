@@ -37,7 +37,7 @@
 
 ## :dart: About ##
 
-This project will be for projects utlizing session for Java Spring web apps.
+This project will be for projects utilizing session for Java Spring web apps.
 
 The first project is a basic use of session to keep track of a count based on site visits.
 
@@ -45,7 +45,7 @@ The first project is a basic use of session to keep track of a count based on si
 
 :heavy_check_mark: Session\
 :heavy_check_mark: Bootstrap\
-:heavy_check_mark: Feature 3;
+<!-- :heavy_check_mark: Feature 3; -->
 
 ## :rocket: Technologies ##
 
@@ -71,8 +71,8 @@ These dependencies are required, but should be included in the pom.xml file of t
 - webjars-locator: 0.46 (if using bootstrap)
 - bootstrap
 
-### Be sure your Dynamic Web Module is set to version 5.0 (or higher) before running the server!
-You can check this in STS by going to Properties for the project. Find or search for Project Facets and check the DMM version.
+#### Be sure your Dynamic Web Module is set to version 5.0 (or higher) before running the server!
+##### You can check this in STS by going to Properties for the project. Find or search for Project Facets and check the DMM version.
 
 ## :checkered_flag: Starting ##
 
