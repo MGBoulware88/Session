@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+.site-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+}
