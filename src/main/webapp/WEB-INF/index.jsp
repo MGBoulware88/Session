@@ -16,6 +16,7 @@
 			<p>What would you like to do today?</p>
 			<div>
 				<a class="btn btn-primary m-auto" href="http://localhost:8080/counter">Check Count</a>
+				<a class="btn btn-warning m-auto" href="http://localhost:8080/counter2">Add 2 Visits</a>
 				<a class="btn btn-danger m-auto" href="http://localhost:8080/reset">Destroy Cookies</a>
 			</div>
 		

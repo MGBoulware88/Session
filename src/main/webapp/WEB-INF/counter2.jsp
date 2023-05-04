@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Count</title>
+<title>Counter Home</title>
 <link rel="stylesheet" href="/css/style.css" />
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 </head>
@@ -13,12 +13,12 @@
 		<div class="col-4 card align-self-center container d-flex flex-column justify-content-center gap-3 p-5 my-auto mt-4">
 			<h1>Welcome, User</h1>
 			<hr />
-			<p>You have visited this site <c:out value="${count}"></c:out> times during this session!</p>
+			<p>You added 2 more site visits!</p>
+			<p>You have now visited this site <c:out value="${count}"></c:out> times during this session!</p>
 			<div>
-			<a class="btn btn-success m-auto" href="http://localhost:8080">Test another visit?</a>
-			<a class="btn btn-warning m-auto" href="http://localhost:8080/counter2">Add 2 Visits</a>
-			<a class="btn btn-danger m-auto" href="http://localhost:8080/reset">Destroy Cookies?</a>
-			
+				<a class="btn btn-success m-auto" href="http://localhost:8080">Test another visit?</a>
+				<a class="btn btn-primary m-auto" href="http://localhost:8080/counter">Check Count</a>
+				<a class="btn btn-danger m-auto" href="http://localhost:8080/reset">Destroy Cookies</a>
 			</div>
 		
 		</div>

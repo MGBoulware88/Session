@@ -46,4 +46,20 @@ public class CounterController {
 		System.out.println(session.getAttribute("count"));
 		return "reset.jsp";
 	}
+	
+	@RequestMapping("/counter2")
+	public String countTwice(HttpSession session) {
+		if (session.getAttribute("count") == null) {
+			session.setAttribute("count", 2);
+			
+		} else {
+			int currentCount = (int) session.getAttribute("count");
+			currentCount = currentCount + 2;
+			session.setAttribute("count", currentCount);
+		}
+		System.out.println(session.getAttribute("count"));
+		
+		//could just redirect to index, but I was told to make this a new page 
+		return "counter2.jsp";
+	}
 }
